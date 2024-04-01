@@ -1,3 +1,5 @@
+![image](https://github.com/Mathieu-Soussignan/Crypto_dashboard/assets/40361937/88c1457b-7447-4679-a71e-aac80f9a6cf1)
+
 # Crypto Dashboard
 
 ## Introduction
