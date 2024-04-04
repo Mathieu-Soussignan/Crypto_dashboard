@@ -17,15 +17,15 @@ import { BsSearch } from "react-icons/bs";
 const TransactionPage = () => {
   const tabs = [
     {
-      name: "All",
+      name: "Tous",
       count: 349,
     },
     {
-      name: "Deposit",
+      name: "Dépôt",
       count: 114,
     },
     {
-      name: "Widthdraw",
+      name: "Retrait",
       count: 55,
     },
     {
@@ -62,7 +62,7 @@ const TransactionPage = () => {
               <InputLeftElement pointerEvents="none">
                 <Icon as={BsSearch} />
               </InputLeftElement>
-              <Input type="tel" placeholder="Search..." />
+              <Input type="tel" placeholder="Recherche..." />
             </InputGroup>
           </TabList>
 

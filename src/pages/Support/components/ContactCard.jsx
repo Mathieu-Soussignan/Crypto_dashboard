@@ -18,7 +18,7 @@ const ContactCard = () => {
     <Card p="6" borderRadius="1rem">
       <Stack spacing={6}>
         <Text fontWeight="medium" fontSize="sm">
-          You will receive response within 24 hours of time of submit.
+          Vous recevrez une réponse dans les 24 heures suivant l'envoi de votre demande.
         </Text>
 
         <HStack
@@ -28,25 +28,25 @@ const ContactCard = () => {
           }}
         >
           <FormControl>
-            <FormLabel>Name</FormLabel>
-            <Input placeholder="Enter Your Name.." />
+            <FormLabel>prénom</FormLabel>
+            <Input placeholder="Entrez votre prénom.." />
           </FormControl>
           <FormControl>
-            <FormLabel>Surename</FormLabel>
-            <Input placeholder="Enter Your Surename.." />
+            <FormLabel>nom de famille</FormLabel>
+            <Input placeholder="Entrez votre nom de famille.." />
           </FormControl>
         </HStack>
         <FormControl>
           <FormLabel>Email</FormLabel>
-          <Input type="email" placeholder="Enter Your Email.." />
+          <Input type="email" placeholder="Saisissez votre mail.." />
         </FormControl>
         <FormControl>
-          <FormLabel>Messagee</FormLabel>
-          <Textarea placeholder="Enter Your Message.." />
+          <FormLabel>Message</FormLabel>
+          <Textarea placeholder="Entrez votre Message.." />
         </FormControl>
         <Checkbox defaultChecked>
           <Text fontSize="xs">
-            I agree with
+            J'accepte les 
             <Box as="span" color="p.purple">
               {" "}
               Terms & Conditions.
@@ -54,9 +54,9 @@ const ContactCard = () => {
           </Text>
         </Checkbox>
         <Stack>
-          <Button fontSize="sm">Send a Message</Button>
+          <Button fontSize="sm">Envoyez un Message</Button>
           <Button fontSize="sm" colorScheme="gray">
-            Book a Meeting
+            Réserver une réunion
           </Button>
         </Stack>
       </Stack>

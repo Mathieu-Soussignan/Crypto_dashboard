@@ -24,7 +24,7 @@ const PriceSection = () => {
       <Flex justify="space-between" align="start">
         <Stack>
           <HStack color="black.80">
-            <Text fontSize="sm">Wallet Balances</Text>
+            <Text fontSize="sm">Solde du portefeuille</Text>
           </HStack>
           <HStack
             spacing={2}

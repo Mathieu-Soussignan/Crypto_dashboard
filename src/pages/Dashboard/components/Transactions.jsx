@@ -18,9 +18,9 @@ const Transactions = () => {
     {
       id: "1",
       icon: BsCurrencyRupee,
-      text: "INR Deposit",
+      text: "Depôt INR",
       amount: "+ ₹81,123.10",
-      timestamp: "2022-06-09 7:06 PM",
+      timestamp: "2023-06-09 7:06 PM",
     },
     {
       id: "2",
@@ -32,16 +32,16 @@ const Transactions = () => {
     {
       id: "3",
       icon: BsCurrencyRupee,
-      text: "INR Deposit",
+      text: "Depôt INR",
       amount: "+ ₹81,123.10",
-      timestamp: "2022-06-09 7:06 PM",
+      timestamp: "2021-06-09 7:06 PM",
     },
   ];
 
   return (
     <CustomCard h="full">
       <Text mb="6" fontSize="sm" color="black.80">
-        Recent Transactions
+        Transactions récentes
       </Text>
       <Stack spacing={4}>
         {transactions.map((transaction, i) => (
@@ -70,7 +70,7 @@ const Transactions = () => {
         ))}
       </Stack>
       <Button w="full" mt="6" colorScheme="gray">
-        View All
+        Voir tout
       </Button>
     </CustomCard>
   );

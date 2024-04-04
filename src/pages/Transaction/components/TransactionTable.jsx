@@ -93,10 +93,10 @@ const TransactionTable = () => {
         <Thead>
           <Tr>
             <Th>ID</Th>
-            <Th>Date & Time</Th>
+            <Th>Date et heure</Th>
             <Th>Type</Th>
-            <Th>Amount</Th>
-            <Th>Status</Th>
+            <Th>Montant</Th>
+            <Th>Statut</Th>
           </Tr>
         </Thead>
         <Tbody color="p.black">

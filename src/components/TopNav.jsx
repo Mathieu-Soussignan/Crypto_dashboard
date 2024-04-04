@@ -33,7 +33,7 @@ const TopNav = ({ title, onOpen }) => {
             <Icon as={FaUserTie} fontSize="24px" />
           </MenuButton>
           <MenuList>
-            <MenuItem>Logout</MenuItem>
+            <MenuItem>Déconnexion</MenuItem>
             <MenuItem>Support</MenuItem>
           </MenuList>
         </Menu>

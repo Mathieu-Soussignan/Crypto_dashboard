@@ -41,7 +41,7 @@ const PortfolioSection = () => {
       >
         <Stack>
           <HStack color="black.80">
-            <Text fontSize="sm">Total Portfolio Value</Text>
+            <Text fontSize="sm">Valeur totale du portefeuille</Text>
             <Icon as={AiOutlineInfoCircle} />
           </HStack>
           <Text textStyle="h2" fontWeight="medium">
@@ -51,7 +51,7 @@ const PortfolioSection = () => {
 
         <Stack>
           <HStack color="black.80">
-            <Text fontSize="sm">Wallet Balances</Text>
+            <Text fontSize="sm">Solde du portefeuille</Text>
           </HStack>
           <HStack
             spacing={2}
@@ -83,8 +83,8 @@ const PortfolioSection = () => {
       </HStack>
 
       <HStack>
-        <Button leftIcon={<Icon as={AiOutlineArrowDown} />}>Deposit</Button>
-        <Button leftIcon={<Icon as={AiOutlineArrowUp} />}>Withdraw</Button>
+        <Button leftIcon={<Icon as={AiOutlineArrowDown} />}>Dépôt</Button>
+        <Button leftIcon={<Icon as={AiOutlineArrowUp} />}>Retrait</Button>
       </HStack>
     </HStack>
   );

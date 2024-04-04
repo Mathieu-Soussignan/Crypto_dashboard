@@ -12,9 +12,8 @@ const Support = () => {
         <SupportCard
           icon={IoMdMail}
           leftComponent={<ContactCard />}
-          title="Contact Us"
-          text=" Have a question or just want to know more? Feel free to reach out to
-          us."
+          title="Nous contacter"
+          text=" Vous avez une question ou souhaitez en savoir plus ? N'hésitez pas à nous contacter."
         />
         <SupportCard
           icon={AiTwotoneMessage}
@@ -23,11 +22,11 @@ const Support = () => {
               inverted={true}
               tagText="Contact"
               imgUrl="/grid_bg.svg"
-              text="Learn more about our real estate, mortgage, and  corporate account services"
+              text="En savoir plus sur nos services immobiliers, hypothécaires et de comptes d'entreprise"
             />
           }
           title="Live Chat"
-          text=" Don’t have time to wait for the answer? Chat with us now."
+          text=" Vous n'avez pas le temps d'attendre la réponse ? Chattez avec nous maintenant."
         />
       </Stack>
     </DashboardLayout>
