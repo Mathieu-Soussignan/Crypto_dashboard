@@ -8,7 +8,7 @@ const DashboardLayout = ({ title, children }) => {
   const { isOpen, onClose, onOpen } = useDisclosure();
 
   return (
-    <Flex>
+    <Flex direction={{ base: 'column', lg: 'row' }}>
       <Box
         display={{
           base: "none",
@@ -23,9 +23,9 @@ const DashboardLayout = ({ title, children }) => {
         <Container
           overflowX="hidden"
           overflowY="auto"
-          h="calc(100vh - 88px)"
+          h={{ base: "auto", md: "calc(100vh - 88px)" }}
           mt="6"
-          maxW="70rem"
+          maxW="container.xl"
         >
           {children}
         </Container>

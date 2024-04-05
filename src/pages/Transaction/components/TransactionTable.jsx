@@ -12,6 +12,7 @@ import {
   Text,
   Tag,
 } from "@chakra-ui/react";
+
 const TransactionTable = () => {
   const tableData = [
     {
@@ -88,8 +89,8 @@ const TransactionTable = () => {
   };
 
   return (
-    <TableContainer>
-      <Table variant="simple" colorScheme="gray">
+    <TableContainer width="100%" overflowX={{ base: "scroll", md: "hidden" }}>
+      <Table variant="simple" size="sm" colorScheme="gray">
         <Thead>
           <Tr>
             <Th>ID</Th>
@@ -102,10 +103,10 @@ const TransactionTable = () => {
         <Tbody color="p.black">
           {tableData.map((data) => (
             <Tr key={data.id}>
-              <Td fontSize="sm" fontWeight="medium">
+              <Td fontSize={{ base: 'xs', md: 'sm' }} fontWeight="medium">
                 {data.id}
               </Td>
-              <Td>
+              <Td fontSize={{ base: '12px', md: '14px' }} p={{ base: '8px', md: '10px' }} >
                 <Stack spacing={0}>
                   <Text fontSize="sm" fontWeight="medium">
                     {data.date}
@@ -115,7 +116,7 @@ const TransactionTable = () => {
                   </Text>
                 </Stack>
               </Td>
-              <Td>
+              <Td fontSize={{ base: '12px', md: '14px' }} p={{ base: '8px', md: '10px' }}>
                 {" "}
                 <Stack spacing={0}>
                   <Text fontSize="sm" fontWeight="medium">
@@ -126,10 +127,10 @@ const TransactionTable = () => {
                   </Text>
                 </Stack>
               </Td>
-              <Td fontSize="sm" fontWeight="medium">
+              <Td fontSize={{ base: '12px', md: '14px' }} p={{ base: '8px', md: '10px' }}>
                 {data.amount}
               </Td>
-              <Td fontSize="sm" fontWeight="medium">
+              <Td fontSize={{ base: '12px', md: '14px' }} p={{ base: '8px', md: '10px' }}>
                 <Tag
                   bg={statusColor[data.status]}
                   color="white"
